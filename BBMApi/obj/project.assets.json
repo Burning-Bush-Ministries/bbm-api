@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\BBMApi\\BBMApi\\BBMApi.csproj",
+      "projectUniqueName": "C:\\Project\\BBMApi\\bbm-api\\BBMApi\\BBMApi.csproj",
       "projectName": "BBMApi",
-      "projectPath": "C:\\Project\\BBMApi\\BBMApi\\BBMApi.csproj",
+      "projectPath": "C:\\Project\\BBMApi\\bbm-api\\BBMApi\\BBMApi.csproj",
       "packagesPath": "C:\\Users\\Lindany\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\BBMApi\\BBMApi\\obj\\",
+      "outputPath": "C:\\Project\\BBMApi\\bbm-api\\BBMApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lindany\\AppData\\Roaming\\NuGet\\NuGet.Config",
