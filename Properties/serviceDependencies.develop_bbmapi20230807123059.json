@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/bbmapidbserver/databases/BBMApi_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:azzuredatabase",
+      "dynamicId": null
+    },
+    "apis2": {
+      "apiEndpoint": "https://bbmapiapimanagement.azure-api.net/",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/BBMApiapiManagement/apis/BBMApi",
+      "type": "apis.azure"
+    }
+  }
+}
