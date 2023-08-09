@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Cors.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<BBMApiContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("BBMApiContext")
+    options.UseSqlServer(builder.Configuration.GetConnectionString("azzuredatabase")
     ?? throw new InvalidOperationException("Connection string 'BBMApiContext' not found."),
     builder => builder.EnableRetryOnFailure(10, TimeSpan.FromSeconds(5), null)));
 
@@ -19,11 +19,8 @@ builder.Services.AddCors();
 var app = builder.Build();
 app.UseCors();
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
