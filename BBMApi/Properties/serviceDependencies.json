@@ -4,6 +4,16 @@
       "type": "mssql",
       "connectionId": "ConnectionStrings:BBMApiContext",
       "dynamicId": null
+    },
+    "secrets1": {
+      "type": "secrets"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:azzuredatabase"
+    },
+    "apis1": {
+      "type": "apis"
     }
   }
 }
