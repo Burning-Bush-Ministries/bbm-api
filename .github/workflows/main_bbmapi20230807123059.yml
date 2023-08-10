@@ -24,7 +24,6 @@ jobs:
 
       - name: Build with dotnet
         run: |
-          cd BBMApi
           dotnet build --configuration Release
           dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
@@ -49,9 +48,6 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: .net-app
-          
-      - name: Change directory to BBMApi
-        run: cd BBMApi
         
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
