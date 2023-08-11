@@ -8,12 +8,13 @@
     "secrets1": {
       "type": "secrets"
     },
-    "mssql2": {
-      "type": "mssql",
-      "connectionId": "ConnectionStrings:azzuredatabase"
-    },
     "apis1": {
       "type": "apis"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:azzuredatabase",
+      "dynamicId": null
     }
   }
 }

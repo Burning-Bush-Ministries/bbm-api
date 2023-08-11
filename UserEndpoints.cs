@@ -2,7 +2,7 @@
 using BBMApi.Data;
 using BBMApi.Model;
 using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.OpenApi;
+
 namespace BBMApi;
 
 public static class UserEndpoints
@@ -52,6 +52,16 @@ public static class UserEndpoints
             return TypedResults.Created($"/api/User/{user.userId}",user);
         })
         .WithName("CreateUser")
+        .WithOpenApi();
+
+        group.MapPost("/Login", async Task<Results<Ok, StatusCodeHttpResult>> (User userObj, BBMApiContext db) =>
+        {
+            var results = await db.User
+            .FirstOrDefaultAsync(user => user.username.ToLower() == userObj.username.ToLower() && user.password == userObj.password);
+
+            return results != null ? TypedResults.Ok() : TypedResults.StatusCode(401);
+        })
+        .WithName("Login")
         .WithOpenApi();
 
         group.MapDelete("/{id}", async Task<Results<Ok, NotFound>> (int userid, BBMApiContext db) =>

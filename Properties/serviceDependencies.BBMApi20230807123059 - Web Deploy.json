@@ -3,6 +3,13 @@
     "apis1": {
       "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/BBMApiapiManagement/apis/BBMApi",
       "type": "apis.azure"
+    },
+    "mssql2": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/bbmapidbserver/databases/BBMApi_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:azzuredatabase",
+      "dynamicId": null
     }
   }
 }
