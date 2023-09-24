@@ -5,6 +5,8 @@
         public int statsId { get; set; }
         public int adult { get; set; }
         public int car { get; set; }
+        public int ck { get; set; }
+        public int aow { get; set; }
         public int fk { get; set; }
         public int saved { get; set; }
         public float offering { get; set; }

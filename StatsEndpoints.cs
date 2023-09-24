@@ -37,6 +37,8 @@ public static class StatsEndpoints
                   .SetProperty(m => m.adult, stats.adult)
                   .SetProperty(m => m.car, stats.car)
                   .SetProperty(m => m.fk, stats.fk)
+                  .SetProperty(m => m.ck, stats.ck)
+                  .SetProperty(m => m.aow, stats.aow)
                   .SetProperty(m => m.saved, stats.saved)
                   .SetProperty(m => m.offering, stats.offering)
                   .SetProperty(m => m.visitors, stats.visitors)
