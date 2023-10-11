@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T09:47:27.664Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="5v_HW_BdP2jBZ1AE_wpx" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T09:51:55.808Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="H9zpilUp7RpalI_SZtWc" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2022" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -289,6 +289,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="GN8b9wlNIwaGFEjr1hPO-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GN8b9wlNIwaGFEjr1hPO-104" target="GN8b9wlNIwaGFEjr1hPO-121">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="905" />
+              <mxPoint x="550" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GN8b9wlNIwaGFEjr1hPO-129" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GN8b9wlNIwaGFEjr1hPO-122">
+          <mxGeometry x="-0.8463" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GN8b9wlNIwaGFEjr1hPO-104" value="Authorization&lt;br&gt;Success?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="630" y="865" width="100" height="80" as="geometry" />
         </mxCell>
@@ -298,17 +311,6 @@
         <mxCell id="GN8b9wlNIwaGFEjr1hPO-117" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GN8b9wlNIwaGFEjr1hPO-110">
           <mxGeometry x="-0.4815" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GN8b9wlNIwaGFEjr1hPO-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GN8b9wlNIwaGFEjr1hPO-107" target="GN8b9wlNIwaGFEjr1hPO-58">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="960.8333333333334" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="550" y="780" />
-              <mxPoint x="550" y="1220" />
-              <mxPoint x="170" y="1220" />
-              <mxPoint x="170" y="785" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GN8b9wlNIwaGFEjr1hPO-107" value="&lt;br&gt;insufficient &lt;br&gt;funds&lt;br&gt;error?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -329,7 +331,15 @@
         <mxCell id="GN8b9wlNIwaGFEjr1hPO-114" value="Close browser session" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="620" y="570" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="GN8b9wlNIwaGFEjr1hPO-121" value="Enter Amount" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="GN8b9wlNIwaGFEjr1hPO-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GN8b9wlNIwaGFEjr1hPO-121" target="GN8b9wlNIwaGFEjr1hPO-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="1220" />
+              <mxPoint x="160" y="785" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GN8b9wlNIwaGFEjr1hPO-121" value="Click Edit Payment" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="305" y="1195" width="115" height="50" as="geometry" />
         </mxCell>
       </root>
