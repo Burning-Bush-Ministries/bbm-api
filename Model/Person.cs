@@ -11,5 +11,9 @@
         public string name { get; set; }
         public string surname { get; set; }
         public int    churchId { get; set; }
+        public string cellLeader { get; set; }
+        public string cellLocation { get; set; }
+        public string ministry { get; set; }
+
     }
 }

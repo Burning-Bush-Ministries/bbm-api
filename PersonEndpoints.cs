@@ -42,6 +42,9 @@ public static class PersonEndpoints
                   .SetProperty(m => m.name, person.name)
                   .SetProperty(m => m.surname, person.surname)
                   .SetProperty(m => m.churchId, person.churchId)
+                  .SetProperty(m => m.cellLeader, person.cellLeader) 
+                  .SetProperty(m => m.cellLocation, person.cellLocation)
+                  .SetProperty(m => m.ministry, person.ministry)
                 );
 
             return affected == 1 ? TypedResults.Ok() : TypedResults.NotFound();
